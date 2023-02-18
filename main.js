@@ -34,9 +34,9 @@ function calcularPeso(){
     }
 
     //apresenta a resposta
-    outRespMin.textContent = `${inName}: Seu peso mínimo ${pesoMin.toFixed(2)} kg`;
-    outRespMed.textContent = `${inName}: Seu peso ideal é ${pesoMed.toFixed(2)} kg`;
-    outRespMax.textContent = `${inName}: Seu peso máximo é ${pesoMax.toFixed(2)} kg`;
+    outRespMin.textContent = `${inName} seu peso mínimo ${pesoMin.toFixed(2)} kg`;
+    outRespMed.textContent = `${inName} seu peso ideal é ${pesoMed.toFixed(2)} kg`;
+    outRespMax.textContent = `${inName} seu peso máximo é ${pesoMax.toFixed(2)} kg`;
 }
     var btCalcular = document.getElementById("btCalcular");
     btCalcular.addEventListener("click", calcularPeso);
